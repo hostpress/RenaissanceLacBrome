@@ -1,0 +1,45 @@
+/*
+ * Form Position
+ */
+#font-resizer FORM INPUT[type=text]
+{
+	width: 200px;
+}
+#font-resizer.wrap FORM
+{
+	margin-left: 20px;
+}
+#font-resizer TABLE.form-table TBODY TR TH
+{
+	width: 100px;
+}
+#font-resizer FORM SELECT
+{
+	width: 200px;
+}
+#font-resizer TABLE.form-table TBODY TR TD
+{
+	float: left;
+	width: 300px;
+}
+
+/* simple css-based tooltip */
+.tooltip {
+	/* Design */
+	background-color:#000;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:200px;
+	color:#fff;
+	text-align:left;
+	font-size:12px;
+
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+	
+	/* Positioning */
+	position: absolute;
+	top : 0;
+	left : 0;
+}

@@ -1,0 +1,25 @@
+#fontresizer_container
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+	line-height: normal;
+	font-size: medium;
+}
+#fontresizer_container *
+{
+	margin: 0;
+	font-family: Calibri;
+	line-height: normal;
+	font-size: medium;
+	padding: 0;
+}
+#fontresizer_container #fontresizer_smaller
+{
+	float: left;
+}
+#fontresizer_container #fontresizer_larger
+{
+	float: left;
+}

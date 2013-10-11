@@ -1,0 +1,50 @@
+#fontresizer_container
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+	line-height: normal;
+	font-size: medium;
+	width: 50px;
+}
+#fontresizer_container *
+{
+	margin: 0;
+	font-family: Calibri;
+	line-height: normal;
+	font-size: medium;
+	padding: 0;
+}
+#fontresizer_container H3
+{
+	float: left;
+	height: 0px;
+	margin-right: 5px;
+	margin-top: -4px;
+	font-size: 20px;
+}
+#fontresizer_container #fontresizer_smaller
+{
+	float: right;
+	background-image: url(small.png);
+	background-repeat: no-repeat;
+}
+#fontresizer_container #fontresizer_smaller A
+{
+	width: 24px;
+	height: 24px;
+    display : block;
+}
+#fontresizer_container #fontresizer_larger
+{
+	float: left;
+	background-image: url(large.png);
+	background-repeat: no-repeat;
+}
+#fontresizer_container #fontresizer_larger A
+{
+	width: 24px;
+	height: 24px;
+  	display: block;
+}

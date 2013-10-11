@@ -1,0 +1,59 @@
+#toplevel_page_wpml-string-translation-menu-string-translation{
+display: none;
+}
+
+#wpcf-marketing{
+display: none;
+}
+#theme_meta_box{
+display: none;
+}
+#cryptx{
+display: none;
+}
+#add_map{
+display: none;
+}
+
+.js .tmce-active .wp-editor-area {
+color: black !important;
+}
+
+
+input[name="icl_admin_language_for_edit"] {
+display: none;
+-webkit-appearance: checkbox;
+box-sizing: border-box;
+}
+
+#pageparentdiv, #icl_div_config, #formatdiv, #postcustom, #wp-biographia-radio-village-events-meta, .icl_cyan_box, .widefat-advert, #avhec_catgroupdiv, #coauthorsdiv, #views_template, .editor_addon_wrapper, #add_poll, #views_template{
+display: none;
+
+}
+
+
+
+
+
+.wrap .add-new-h2 {
+background: rgba(105, 196, 192, 0.39);
+}
+.wrap .add-new-h2 {
+
+margin-left: 8px;
+padding: 6px 10px;
+
+
+
+font-size: 14px;
+border: 0 none;
+}
+
+#dashboard-widgets h4 {
+font-weight: bold;
+font-size: 18px;
+margin: 0 0 .2em;
+padding: 0;
+
+}
+}

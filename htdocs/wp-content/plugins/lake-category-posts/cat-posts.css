@@ -1,0 +1,21 @@
+html,
+body {
+	height:100%;
+}
+
+.conditions {
+width: 371px;
+float: left;
+margin: 0 20px 0 0;
+border: solid #333 1px;
+background: url(images/secchibg.jpg) top right no-repeat;
+border-radius: 0px 0px 15px 15px;
+padding-bottom: 9px;
+}
+
+.conditions-title
+{
+padding: 2px 2px 12px 3px;
+margin-top: 0px;
+white-space: nowrap;
+}

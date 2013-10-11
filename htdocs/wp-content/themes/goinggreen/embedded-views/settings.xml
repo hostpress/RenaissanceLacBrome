@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views>
+    <site_url>http://renaissancelbl.com</site_url>
+    <fileupload_url>http://renaissancelbl.com/wp-content/uploads</fileupload_url>
+    <terms_map>
+        <term_12>
+            <old_id>12</old_id>
+            <slug>conditions-du-lac</slug>
+            <taxonomy>category</taxonomy>
+        </term_12>
+        <term_11>
+            <old_id>11</old_id>
+            <slug>documentation</slug>
+            <taxonomy>category</taxonomy>
+        </term_11>
+        <term_13>
+            <old_id>13</old_id>
+            <slug>dossier-colibris</slug>
+            <taxonomy>category</taxonomy>
+        </term_13>
+        <term_8>
+            <old_id>8</old_id>
+            <slug>lexique</slug>
+            <taxonomy>category</taxonomy>
+        </term_8>
+        <term_7>
+            <old_id>7</old_id>
+            <slug>nouvelles</slug>
+            <taxonomy>category</taxonomy>
+        </term_7>
+        <term_6>
+            <old_id>6</old_id>
+            <slug>vedette</slug>
+            <taxonomy>category</taxonomy>
+        </term_6>
+        <term_32>
+            <old_id>32</old_id>
+            <slug>bottom-menu</slug>
+            <taxonomy>nav_menu</taxonomy>
+        </term_32>
+        <term_14>
+            <old_id>14</old_id>
+            <slug>dossiers-chaud</slug>
+            <taxonomy>nav_menu</taxonomy>
+        </term_14>
+        <term_4>
+            <old_id>4</old_id>
+            <slug>en-haut</slug>
+            <taxonomy>nav_menu</taxonomy>
+        </term_4>
+        <term_10>
+            <old_id>10</old_id>
+            <slug>footer-menu</slug>
+            <taxonomy>nav_menu</taxonomy>
+        </term_10>
+        <term_33>
+            <old_id>33</old_id>
+            <slug>hot-topics</slug>
+            <taxonomy>nav_menu</taxonomy>
+        </term_33>
+        <term_30>
+            <old_id>30</old_id>
+            <slug>main-menu</slug>
+            <taxonomy>nav_menu</taxonomy>
+        </term_30>
+        <term_5>
+            <old_id>5</old_id>
+            <slug>menu-principale</slug>
+            <taxonomy>nav_menu</taxonomy>
+        </term_5>
+        <term_31>
+            <old_id>31</old_id>
+            <slug>top-menu</slug>
+            <taxonomy>nav_menu</taxonomy>
+        </term_31>
+        <term_2>
+            <old_id>2</old_id>
+            <slug>liens</slug>
+            <taxonomy>link_category</taxonomy>
+        </term_2>
+    </terms_map>
+    <views>
+        <view>
+            <ID>2389</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]
+</post_content>
+            <post_title>Secchi English page view</post_title>
+            <post_name>secchi-english-page-view</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <pagination>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <mode>paged</mode>
+                        <page_selector_control_type>drop_down</page_selector_control_type>
+                        <spinner>default</spinner>
+                        <spinner_image>http://renaissancelbl.com/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <state>disable</state>
+                    </pagination>
+                    <rollover>
+                        <preload_images>1</preload_images>
+                        <posts_per_page>1</posts_per_page>
+                        <speed>5</speed>
+                        <effect>fade</effect>
+                    </rollover>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>0</taxonomy_pad_counts>
+                    <post_type_dont_include_current_page>0</post_type_dont_include_current_page>
+                    <view-query-mode>normal</view-query-mode>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <limit>1</limit>
+                    <offset>0</offset>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <posts_per_page>10</posts_per_page>
+                    <ajax_pagination>
+                        <style>fade</style>
+                        <state>disable</state>
+                    </ajax_pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <generated_filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</generated_filter_meta_html>
+                    <post_types>
+                        <post_type>condition-lac</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <include_field_names>on</include_field_names>
+                    <fields>
+                        <prefix_0></prefix_0>
+                        <name_0>wpv-post-body secchi-page-english</name_0>
+                        <types_field_name_0></types_field_name_0>
+                        <types_field_data_0></types_field_data_0>
+                        <row_title_0>Secchi page english</row_title_0>
+                        <suffix_0></suffix_0>
+                    </fields>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+&lt;!-- wpv-loop-start --&gt;
+   &lt;wpv-loop&gt;
+      [wpv-post-body view_template=&quot;Secchi page english&quot;]
+   &lt;/wpv-loop&gt;
+
+&lt;!-- wpv-loop-end --&gt;
+[wpv-no-posts-found][wpml-string context=&quot;wpv-views&quot;]&lt;h4&gt;Lake Conditions &lt;/h4&gt;&lt;strong&gt;Condition readings finished for season. &lt;/strong&gt;[/wpml-string][/wpv-no-posts-found]
+[wpv-layout-end]
+
+
+</layout_meta_html>
+                    <generated_layout_meta_html>[wpv-layout-start]
+&lt;!-- wpv-loop-start --&gt;
+   &lt;wpv-loop&gt;
+      [wpv-post-body view_template=&quot;Secchi page english&quot;]
+   &lt;/wpv-loop&gt;
+
+&lt;!-- wpv-loop-end --&gt;
+[wpv-no-posts-found][wpml-string context=&quot;wpv-views&quot;]&lt;strong&gt;No posts found&lt;/strong&gt;[/wpml-string][/wpv-no-posts-found]
+[wpv-layout-end]
+</generated_layout_meta_html>
+                </_wpv_layout_settings>
+            </meta>
+        </view>
+        <view>
+            <ID>2388</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]
+</post_content>
+            <post_title>Secch Page view</post_title>
+            <post_name>secch-page-view</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <pagination>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <mode>paged</mode>
+                        <page_selector_control_type>drop_down</page_selector_control_type>
+                        <spinner>default</spinner>
+                        <spinner_image>http://renaissancelbl.com/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <state>disable</state>
+                    </pagination>
+                    <rollover>
+                        <preload_images>1</preload_images>
+                        <posts_per_page>1</posts_per_page>
+                        <speed>5</speed>
+                        <effect>fade</effect>
+                    </rollover>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>0</taxonomy_pad_counts>
+                    <post_type_dont_include_current_page>0</post_type_dont_include_current_page>
+                    <view-query-mode>normal</view-query-mode>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <limit>1</limit>
+                    <offset>0</offset>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <posts_per_page>10</posts_per_page>
+                    <ajax_pagination>
+                        <style>fade</style>
+                        <state>disable</state>
+                    </ajax_pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <generated_filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</generated_filter_meta_html>
+                    <post_types>
+                        <post_type>condition-lac</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <include_field_names>on</include_field_names>
+                    <fields>
+                        <prefix_0></prefix_0>
+                        <name_0>wpv-post-body secchi-page</name_0>
+                        <types_field_name_0></types_field_name_0>
+                        <types_field_data_0></types_field_data_0>
+                        <row_title_0>Secchi Page</row_title_0>
+                        <suffix_0></suffix_0>
+                    </fields>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+&lt;!-- wpv-loop-start --&gt;
+   &lt;wpv-loop&gt;
+      [wpv-post-body view_template=&quot;Secchi Page&quot;]
+   &lt;/wpv-loop&gt;
+
+&lt;!-- wpv-loop-end --&gt;
+[wpv-no-posts-found][wpml-string context=&quot;wpv-views&quot;]&lt;strong&gt;No posts found&lt;/strong&gt;[/wpml-string][/wpv-no-posts-found]
+[wpv-layout-end]
+
+
+</layout_meta_html>
+                    <generated_layout_meta_html>[wpv-layout-start]
+&lt;!-- wpv-loop-start --&gt;
+   &lt;wpv-loop&gt;
+      [wpv-post-body view_template=&quot;Secchi Page&quot;]
+   &lt;/wpv-loop&gt;
+
+&lt;!-- wpv-loop-end --&gt;
+[wpv-no-posts-found][wpml-string context=&quot;wpv-views&quot;]&lt;strong&gt;No posts found&lt;/strong&gt;[/wpml-string][/wpv-no-posts-found]
+[wpv-layout-end]
+</generated_layout_meta_html>
+                </_wpv_layout_settings>
+            </meta>
+        </view>
+        <view>
+            <ID>2369</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]
+</post_content>
+            <post_title>Secchi English View</post_title>
+            <post_name>secchi-english-view</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <pagination>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <mode>paged</mode>
+                        <page_selector_control_type>drop_down</page_selector_control_type>
+                        <spinner>default</spinner>
+                        <spinner_image>http://renaissancelbl.com/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <state>disable</state>
+                    </pagination>
+                    <rollover>
+                        <preload_images>1</preload_images>
+                        <posts_per_page>1</posts_per_page>
+                        <speed>5</speed>
+                        <effect>fade</effect>
+                    </rollover>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>0</taxonomy_pad_counts>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <view-query-mode>normal</view-query-mode>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <limit>1</limit>
+                    <offset>0</offset>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <posts_per_page>10</posts_per_page>
+                    <ajax_pagination>
+                        <style>fade</style>
+                        <state>disable</state>
+                    </ajax_pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <generated_filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</generated_filter_meta_html>
+                    <post_types>
+                        <post_type>condition-lac</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <include_field_names>on</include_field_names>
+                    <fields>
+                        <prefix_0></prefix_0>
+                        <name_0>wpv-post-body secchi-template-english</name_0>
+                        <types_field_name_0></types_field_name_0>
+                        <types_field_data_0></types_field_data_0>
+                        <row_title_0>Secchi Template English</row_title_0>
+                        <suffix_0></suffix_0>
+                    </fields>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+&lt;!-- wpv-loop-start --&gt;
+   &lt;wpv-loop&gt;
+      [wpv-post-body view_template=&quot;Secchi Template English&quot;]
+   &lt;/wpv-loop&gt;
+
+&lt;!-- wpv-loop-end --&gt;
+[wpv-no-posts-found][wpml-string context=&quot;wpv-views&quot;]&lt;h4&gt;Lake Conditions &lt;/h4&gt;&lt;strong&gt;Condition readings finished for season. &lt;/strong&gt;[/wpml-string][/wpv-no-posts-found]
+[wpv-layout-end]
+
+
+</layout_meta_html>
+                    <generated_layout_meta_html>[wpv-layout-start]
+&lt;!-- wpv-loop-start --&gt;
+   &lt;wpv-loop&gt;
+      [wpv-post-body view_template=&quot;Secchi Template English&quot;]
+   &lt;/wpv-loop&gt;
+
+&lt;!-- wpv-loop-end --&gt;
+[wpv-no-posts-found][wpml-string context=&quot;wpv-views&quot;]&lt;strong&gt;No posts found&lt;/strong&gt;[/wpml-string][/wpv-no-posts-found]
+[wpv-layout-end]
+</generated_layout_meta_html>
+                </_wpv_layout_settings>
+            </meta>
+        </view>
+        <view>
+            <ID>2358</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]
+</post_content>
+            <post_title>Secchi View</post_title>
+            <post_name>secchi-view</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <pagination>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <mode>paged</mode>
+                        <page_selector_control_type>drop_down</page_selector_control_type>
+                        <spinner>default</spinner>
+                        <spinner_image>http://renaissancelbl.com/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <state>disable</state>
+                    </pagination>
+                    <rollover>
+                        <preload_images>1</preload_images>
+                        <posts_per_page>1</posts_per_page>
+                        <speed>5</speed>
+                        <effect>fade</effect>
+                    </rollover>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>0</taxonomy_pad_counts>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <view-query-mode>normal</view-query-mode>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <limit>1</limit>
+                    <offset>0</offset>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <posts_per_page>10</posts_per_page>
+                    <ajax_pagination>
+                        <style>fade</style>
+                        <state>disable</state>
+                    </ajax_pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <generated_filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</generated_filter_meta_html>
+                    <post_types>
+                        <post_type>condition-lac</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <include_field_names>on</include_field_names>
+                    <fields>
+                        <prefix_0></prefix_0>
+                        <name_0>wpv-post-body secchi-template</name_0>
+                        <types_field_name_0></types_field_name_0>
+                        <types_field_data_0></types_field_data_0>
+                        <row_title_0>Secchi Template</row_title_0>
+                        <suffix_0></suffix_0>
+                    </fields>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+&lt;!-- wpv-loop-start --&gt;
+   &lt;wpv-loop&gt;
+      [wpv-post-body view_template=&quot;Secchi Template&quot;]
+   &lt;/wpv-loop&gt;
+
+&lt;!-- wpv-loop-end --&gt;
+[wpv-no-posts-found][wpml-string context=&quot;wpv-views&quot;]&lt;strong&gt;Pas de conditons&lt;/strong&gt;[/wpml-string][/wpv-no-posts-found]
+[wpv-layout-end]
+
+
+</layout_meta_html>
+                    <generated_layout_meta_html>[wpv-layout-start]
+&lt;!-- wpv-loop-start --&gt;
+   &lt;wpv-loop&gt;
+      [wpv-post-body view_template=&quot;Secchi Template&quot;]
+   &lt;/wpv-loop&gt;
+
+&lt;!-- wpv-loop-end --&gt;
+[wpv-no-posts-found][wpml-string context=&quot;wpv-views&quot;]&lt;strong&gt;No posts found&lt;/strong&gt;[/wpml-string][/wpv-no-posts-found]
+[wpv-layout-end]
+</generated_layout_meta_html>
+                </_wpv_layout_settings>
+            </meta>
+        </view>
+    </views>
+    <view-templates>
+        <view-template>
+            <ID>2387</ID>
+            <post_content>&lt;div class=&quot;secchipost&quot;&gt;
+&lt;div class=&quot;secchidata&quot;&gt;[types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-1748051930&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_ok1.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-1033766821&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_jaune1.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-2054680574&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_warning.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-995784105&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_avis.png&quot;&gt;[/types] &lt;h4 class=&quot;secchititle&quot;&gt;[wpv-post-title]&lt;/h4&gt;
+Condition: &lt;b&gt;[types field=&quot;status&quot;][/types]&lt;/b&gt;
+Secchi: &lt;b&gt;[types field=&quot;secchi-number&quot; format=&quot;FIELD_VALUE&quot;][/types] metres&lt;/b&gt;
+Transparency:  &lt;b&gt;[types field=&quot;transparence&quot;][/types]&lt;/b&gt;
+Temperature: &lt;b&gt;[types field=&quot;temperature-lac&quot; format=&quot;FIELD_VALUE&quot;][/types] Celcius&lt;/b&gt;
+Risk of bloom: &lt;b&gt;[types field=&quot;risque-de-bloom&quot;][/types]&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;secchicom&quot;&gt;Comments: &lt;b&gt;[types field=&quot;autre-commentaires&quot; class=&quot;&quot; style=&quot;&quot;][/types]&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;
+</post_content>
+            <post_title>Secchi page english</post_title>
+            <post_name>secchi-page-english</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>WP_mode</template_mode>
+        </view-template>
+        <view-template>
+            <ID>2386</ID>
+            <post_content>&lt;div class=&quot;secchipost&quot;&gt;
+&lt;div class=&quot;secchidata&quot;&gt;[types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-1748051930&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_ok1.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-1033766821&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_jaune1.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-2054680574&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_warning.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-995784105&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_avis.png&quot;&gt;[/types] &lt;h4 class=&quot;secchititle&quot;&gt;[wpv-post-title]&lt;/h4&gt;
+Statut: &lt;b&gt;[types field=&quot;status&quot;][/types]&lt;/b&gt;
+Secchi: &lt;b&gt;[types field=&quot;secchi-number&quot; format=&quot;FIELD_VALUE&quot;][/types] mètres&lt;/b&gt;
+Transparence: &lt;b&gt;[types field=&quot;transparence&quot;][/types]&lt;/b&gt;
+Température: &lt;b&gt;[types field=&quot;temperature-lac&quot; format=&quot;FIELD_VALUE&quot;][/types] Celcius&lt;/b&gt;
+Risque de bloom: &lt;b&gt;[types field=&quot;risque-de-bloom&quot;][/types]&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;secchicom&quot;&gt;Commentaires: &lt;b&gt;[types field=&quot;autre-commentaires&quot; class=&quot;&quot; style=&quot;&quot;][/types]&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;
+</post_content>
+            <post_title>Secchi Page</post_title>
+            <post_name>secchi-page</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>WP_mode</template_mode>
+        </view-template>
+        <view-template>
+            <ID>2383</ID>
+            <post_content>&lt;h4 class=&quot;secchititle&quot;&gt;[wpv-post-title]&lt;/h4&gt;
+Statut: &lt;b&gt;[types field=&quot;status&quot;][/types]&lt;/b&gt;
+Secchi: &lt;b&gt;[types field=&quot;secchi-number&quot; format=&quot;FIELD_VALUE&quot;][/types] mètres&lt;/b&gt;
+Transparence: &lt;b&gt;[types field=&quot;transparence&quot;][/types]&lt;/b&gt;
+Température: &lt;b&gt;[types field=&quot;temperature-lac&quot; format=&quot;FIELD_VALUE&quot;][/types] Celcius&lt;/b&gt;
+Risque de bloom: &lt;b&gt;[types field=&quot;risque-de-bloom&quot;][/types]&lt;/b&gt;&lt;/div&gt;
+Commentaires: &lt;b&gt;[types field=&quot;autre-commentaires&quot; class=&quot;&quot; style=&quot;&quot;][/types]&lt;/b&gt;&lt;br /&gt;
+
+</post_content>
+            <post_title>Secchi regular</post_title>
+            <post_name>secchi-regular</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>WP_mode</template_mode>
+        </view-template>
+        <view-template>
+            <ID>2367</ID>
+            <post_content>&lt;div class=&quot;secchipost&quot;&gt;
+&lt;div class=&quot;secchidata&quot;&gt;[types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-1748051930&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_ok1.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-1033766821&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_jaune1.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-2054680574&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_warning.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-995784105&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_avis.png&quot;&gt;[/types] &lt;h4 class=&quot;secchititle&quot;&gt;[wpv-post-title]&lt;/h4&gt;
+Condition: &lt;b&gt;[types field=&quot;status&quot;][/types]&lt;/b&gt;
+Secchi: &lt;b&gt;[types field=&quot;secchi-number&quot; format=&quot;FIELD_VALUE&quot;][/types] metres&lt;/b&gt;
+Transparency:  &lt;b&gt;[types field=&quot;transparence&quot;][/types]&lt;/b&gt;
+Temperature: &lt;b&gt;[types field=&quot;temperature-lac&quot; format=&quot;FIELD_VALUE&quot;][/types] Celcius&lt;/b&gt;
+Risk of bloom: &lt;b&gt;[types field=&quot;risque-de-bloom&quot;][/types]&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;secchicom&quot;&gt;Comments: &lt;b&gt;[types field=&quot;autre-commentaires&quot; class=&quot;&quot; style=&quot;&quot;][/types]&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;liens&quot;&gt;
+ &lt;a href=&quot;http://renaissancelbl.com/en/lake-conditions-at-the-present-time/&quot;&gt;&amp;nbsp; More about present conditions &amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://renaissancelbl.com/en/history-of-lake-conditions/&quot;&gt;&amp;nbsp; See the history of lake conditions &amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</post_content>
+            <post_title>Secchi Template English</post_title>
+            <post_name>secchi-template-english</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>WP_mode</template_mode>
+        </view-template>
+        <view-template>
+            <ID>2356</ID>
+            <post_content>&lt;div class=&quot;secchipost&quot;&gt;
+&lt;div class=&quot;secchidata&quot;&gt;[types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-1748051930&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_ok1.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-1033766821&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_jaune1.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-2054680574&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_warning.png&quot;&gt;[/types] [types field=&quot;graphic-secchi&quot; option=&quot;wpcf-fields-radio-option-995784105&quot;]&lt;img class=&quot;conditiongraphic&quot; src=&quot;/wp-content/plugins/lake-category-posts/images/secchi_avis.png&quot;&gt;[/types] &lt;h4 class=&quot;secchititle&quot;&gt;[wpv-post-title]&lt;/h4&gt;
+Statut: &lt;b&gt;[types field=&quot;status&quot;][/types]&lt;/b&gt;
+Secchi: &lt;b&gt;[types field=&quot;secchi-number&quot; format=&quot;FIELD_VALUE&quot;][/types] mètres&lt;/b&gt;
+Transparence: &lt;b&gt;[types field=&quot;transparence&quot;][/types]&lt;/b&gt;
+Température: &lt;b&gt;[types field=&quot;temperature-lac&quot; format=&quot;FIELD_VALUE&quot;][/types] Celcius&lt;/b&gt;
+Risque de bloom: &lt;b&gt;[types field=&quot;risque-de-bloom&quot;][/types]&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;secchicom&quot;&gt;Commentaires: &lt;b&gt;[types field=&quot;autre-commentaires&quot; class=&quot;&quot; style=&quot;&quot;][/types]&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;liens&quot;&gt;&lt;a href=&quot;http://renaissancelbl.com/conditions-actuelles-du-lac/&quot;&gt;&amp;nbsp; Plus sur les conditions actuelles &amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;br&gt; &lt;a href=&quot;http://renaissancelbl.com/historiques-des-conditions-du-lac/&quot;&gt;&amp;nbsp; Plus sur l’historique des conditions &amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;</post_content>
+            <post_title>Secchi Template</post_title>
+            <post_name>secchi-template</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>WP_mode</template_mode>
+        </view-template>
+    </view-templates>
+    <settings>
+        <views_template_for_post>0</views_template_for_post>
+        <views_template_archive_for_post>0</views_template_archive_for_post>
+        <views_template_for_page>0</views_template_for_page>
+        <views_template_archive_for_page>0</views_template_archive_for_page>
+        <views_template_for_attachment>0</views_template_for_attachment>
+        <views_template_archive_for_attachment>0</views_template_archive_for_attachment>
+        <views_template_for_condition-du-lac>0</views_template_for_condition-du-lac>
+        <views_template_archive_for_condition-du-lac>0</views_template_archive_for_condition-du-lac>
+    </settings>
+</views>

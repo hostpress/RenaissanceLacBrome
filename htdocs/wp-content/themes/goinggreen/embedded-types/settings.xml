@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <groups>
+        <group>
+            <ID>2344</ID>
+            <post_content></post_content>
+            <post_title>Conditions du lac</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_fields>,status,secchi-number,transparence,temperature-lac,risque-de-bloom,graphic-secchi,autre-commentaires,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,condition-lac,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_templates>,2356,</_wp_types_group_templates>
+            </meta>
+        </group>
+    </groups>
+    <fields>
+        <field>
+            <id>status</id>
+            <slug>status</slug>
+            <type>radio</type>
+            <name>Status</name>
+            <description></description>
+            <data>
+                <options>
+                    <wpcf-fields-radio-option-2123511935>
+                        <title>Open</title>
+                        <value>Open</value>
+                        <display_value>1</display_value>
+                    </wpcf-fields-radio-option-2123511935>
+                    <wpcf-fields-radio-option-972378044>
+                        <title>Public Health Warning</title>
+                        <value>&lt;a href=\&#039;http://renaissancelbl.com/les-avis-de-sante-publique/\&#039;&gt;&lt;span style=\&#039;background-color:red;\&#039;&gt;Avis de sant&amp;eacute; publique&lt;/a&gt;</value>
+                        <display_value>2</display_value>
+                    </wpcf-fields-radio-option-972378044>
+                </options>
+                <display>db</display>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <wpml_action>1</wpml_action>
+        </field>
+        <field>
+            <id>transparence</id>
+            <slug>transparence</slug>
+            <type>radio</type>
+            <name>Transparence</name>
+            <description></description>
+            <data>
+                <options>
+                    <wpcf-fields-radio-option-956306904>
+                        <title>Clear</title>
+                        <value>1</value>
+                        <display_value>1</display_value>
+                    </wpcf-fields-radio-option-956306904>
+                    <wpcf-fields-radio-option-1488189902>
+                        <title>Murky</title>
+                        <value>2</value>
+                        <display_value>2</display_value>
+                    </wpcf-fields-radio-option-1488189902>
+                    <wpcf-fields-radio-option-442226509>
+                        <title>Very Murky</title>
+                        <value>3</value>
+                        <display_value>3</display_value>
+                    </wpcf-fields-radio-option-442226509>
+                </options>
+                <display>db</display>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <wpml_action>1</wpml_action>
+        </field>
+        <field>
+            <id>temperature</id>
+            <slug>temperature</slug>
+            <type>numeric</type>
+            <name>Température</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <number>
+                        <active>1</active>
+                        <message>Please enter numeric data</message>
+                    </number>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <wpml_action>1</wpml_action>
+        </field>
+        <field>
+            <id>risque-de-bloom</id>
+            <slug>risque-de-bloom</slug>
+            <type>radio</type>
+            <name>Risque de bloom</name>
+            <description></description>
+            <data>
+                <options>
+                    <wpcf-fields-radio-option-92738804>
+                        <title>Low</title>
+                        <value>1</value>
+                        <display_value>1</display_value>
+                    </wpcf-fields-radio-option-92738804>
+                    <wpcf-fields-radio-option-1639407427>
+                        <title>Medium</title>
+                        <value>2</value>
+                        <display_value>2</display_value>
+                    </wpcf-fields-radio-option-1639407427>
+                    <wpcf-fields-radio-option-367658037>
+                        <title>High</title>
+                        <value>3</value>
+                        <display_value>3</display_value>
+                    </wpcf-fields-radio-option-367658037>
+                </options>
+                <display>db</display>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <wpml_action>1</wpml_action>
+        </field>
+        <field>
+            <id>graphic-secchi</id>
+            <slug>graphic-secchi</slug>
+            <type>radio</type>
+            <name>Graphique Secchi</name>
+            <description></description>
+            <data>
+                <options>
+                    <wpcf-fields-radio-option-1748051930>
+                        <title>Blue</title>
+                        <value>&lt;img src=\&quot;/wp-content/plugins/lake-category-posts/images/secchi_ok1.png\&quot;&gt;</value>
+                        <display_value>&lt;img class=\&quot;conditiongraphic\&quot; src=\&quot;/wp-content/plugins/lake-category-posts/images/secchi_ok1.png\&quot;&gt;</display_value>
+                    </wpcf-fields-radio-option-1748051930>
+                    <wpcf-fields-radio-option-1033766821>
+                        <title>Yellow</title>
+                        <value>&lt;img src=\&quot;/wp-content/plugins/lake-category-posts/images/secchi_jaune1.png\&quot;&gt;</value>
+                        <display_value>&lt;img class=\&quot;conditiongraphic\&quot; src=\&quot;/wp-content/plugins/lake-category-posts/images/secchi_jaune1.png\&quot;&gt;</display_value>
+                    </wpcf-fields-radio-option-1033766821>
+                    <wpcf-fields-radio-option-2054680574>
+                        <title>Red</title>
+                        <value>&lt;img src=\&quot;/wp-content/plugins/lake-category-posts/images/secchi_warning.png\&quot;&gt;</value>
+                        <display_value>&lt;img class=\&quot;conditiongraphic\&quot; src=\&quot;/wp-content/plugins/lake-category-posts/images/secchi_warning.png\&quot;&gt;</display_value>
+                    </wpcf-fields-radio-option-2054680574>
+                    <wpcf-fields-radio-option-995784105>
+                        <title>Warning</title>
+                        <value>&lt;img src=\&quot;/wp-content/plugins/lake-category-posts/images/secchi_avis.png\&quot;&gt;</value>
+                        <display_value>&lt;img class=\&quot;conditiongraphic\&quot; src=\&quot;/wp-content/plugins/lake-category-posts/images/secchi_avis.png\&quot;&gt;</display_value>
+                    </wpcf-fields-radio-option-995784105>
+                </options>
+                <display>db</display>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <wpml_action>1</wpml_action>
+        </field>
+        <field>
+            <id>autre-commentaires</id>
+            <slug>autre-commentaires</slug>
+            <type>textfield</type>
+            <name>Autre Commentaires</name>
+            <description>trés court</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <wpml_action>2</wpml_action>
+        </field>
+        <field>
+            <id>secchi</id>
+            <slug>secchi</slug>
+            <type>numeric</type>
+            <name>Secchi</name>
+            <description>en metres ex. 1.2</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <number>
+                        <active>1</active>
+                        <message>Please enter numeric data</message>
+                    </number>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <wpml_action>1</wpml_action>
+        </field>
+        <field>
+            <id>temperature-lac</id>
+            <slug>temperature-lac</slug>
+            <type>textfield</type>
+            <name>Température lac</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <wpml_action>2</wpml_action>
+        </field>
+        <field>
+            <id>secchi-number</id>
+            <slug>secchi-number</slug>
+            <type>textfield</type>
+            <name>Secchi number</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <wpml_action>2</wpml_action>
+        </field>
+    </fields>
+    <types>
+        <type>
+            <wpcf-post-type>condition-du-lac</wpcf-post-type>
+            <labels>
+                <name>Conditions lac</name>
+                <singular_name>Condition lac</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent %s</parent_item_colon>
+                <all_items>%s</all_items>
+            </labels>
+            <slug>condition-lac</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position>4</menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>condition-lac</id>
+        </type>
+    </types>
+</types>
