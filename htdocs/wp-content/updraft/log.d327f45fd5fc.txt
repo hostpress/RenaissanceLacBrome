@@ -1,0 +1,236 @@
+59375.688 (1) Opened log file at time: Fri, 11 Oct 2013 12:55:29 +0000
+59375.690 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.7.20.11 WP: 3.4.2 PHP: 5.3.14 (Darwin Todds-Mac-Pro.local 12.4.0 Darwin Kernel Version 12.4.0: Wed May  1 17:57:12 PDT 2013; root:xnu-2050.24.15~1/RELEASE_X86_64 x86_64) MySQL: 5.5.25 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54.7M | 55.3M) ZipArchive::addFile: Y
+59375.691 (1) Free space on disk containing Updraft's temporary directory: 182794.6 Mb
+59375.694 (1) Long time past since expected resumption time: approx expected= 1381437054.2, now=1381496129.9, diff=59075.7
+59375.698 (1) Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: http://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+59375.699 (1) Backup run: resumption=1, nonce=d327f45fd5fc, begun at=1381436754 (59375s ago), job type=backup, previous check-in=95.8s
+59375.700 (1) Scheduling a resumption (2) after 300 seconds (1381496429) in case this run gets aborted
+59375.713 (1) Checking if we have a zip executable available
+59375.715 (1) Testing: /usr/bin/zip
+59375.840 (1) Output: zip warning: binziptest/test.zip not found or empty
+59375.842 (1) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+59375.843 (1) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+59375.845 (1) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+59375.846 (1) Output: total bytes=127, compressed=105 -> 17% savings
+59375.858 (1) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+59375.863 (1) Output: total bytes=261, compressed=214 -> 18% savings
+59375.882 (1) Working binary zip found: /usr/bin/zip
+59375.885 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+59375.887 (1) Creation of backups of directories: already finished
+59375.888 (1) Saving backup status to database (elements: 10)
+59375.891 (1) Resuming creation of database dump
+59375.907 (1) Table rlb_options: Total expected rows (approximate): 524
+59376.011 (1) Table rlb_options: Total rows added: 888 in 0.11 seconds
+59376.013 (1) Table rlb_options: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_options.table.gz)
+59376.027 (1) Table rlb_users: Total expected rows (approximate): 3
+59376.031 (1) Table rlb_users: Total rows added: 3 in 0.01 seconds
+59376.033 (1) Table rlb_users: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_users.table.gz)
+59376.044 (1) Table rlb_usermeta: Total expected rows (approximate): 139
+59376.063 (1) Table rlb_usermeta: Total rows added: 139 in 0.02 seconds
+59376.065 (1) Table rlb_usermeta: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_usermeta.table.gz)
+59376.075 (1) Table rlb_commentmeta: Total expected rows (approximate): 36
+59376.079 (1) Table rlb_commentmeta: Total rows added: 36 in 0.01 seconds
+59376.081 (1) Table rlb_commentmeta: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_commentmeta.table.gz)
+59376.130 (1) Table rlb_comments: Total expected rows (approximate): 9
+59376.135 (1) Table rlb_comments: Total rows added: 9 in 0.01 seconds
+59376.137 (1) Table rlb_comments: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_comments.table.gz)
+59376.211 (1) Table rlb_links: Total expected rows (approximate): 7
+59376.218 (1) Table rlb_links: Total rows added: 7 in 0.01 seconds
+59376.220 (1) Table rlb_links: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_links.table.gz)
+59376.249 (1) Table rlb_postmeta: Total expected rows (approximate): 2344
+59376.518 (1) Table rlb_postmeta: Total rows added: 4180 in 0.28 seconds
+59376.521 (1) Table rlb_postmeta: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_postmeta.table.gz)
+59376.573 (1) Table rlb_posts: Total expected rows (approximate): 919
+59376.973 (1) Table rlb_posts: Total rows added: 1154 in 0.41 seconds
+59376.976 (1) Table rlb_posts: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_posts.table.gz)
+59377.012 (1) Table rlb_term_relationships: Total expected rows (approximate): 1732
+59377.064 (1) Table rlb_term_relationships: Total rows added: 1683 in 0.06 seconds
+59377.066 (1) Table rlb_term_relationships: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_term_relationships.table.gz)
+59377.136 (1) Table rlb_term_taxonomy: Total expected rows (approximate): 22
+59377.141 (1) Table rlb_term_taxonomy: Total rows added: 22 in 0.01 seconds
+59377.143 (1) Table rlb_term_taxonomy: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_term_taxonomy.table.gz)
+59377.203 (1) Table rlb_terms: Total expected rows (approximate): 22
+59377.210 (1) Table rlb_terms: Total rows added: 22 in 0.01 seconds
+59377.230 (1) Table rlb_terms: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_terms.table.gz)
+59377.264 (1) Table rlb_cf7dbplugin_submits: Total expected rows (approximate): 633
+59377.363 (1) Table rlb_cf7dbplugin_submits: Total rows added: 633 in 0.10 seconds
+59377.366 (1) Table rlb_cf7dbplugin_submits: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_cf7dbplugin_submits.table.gz)
+59377.466 (1) Table rlb_contact_form_7: Total expected rows (approximate): 5
+59377.475 (1) Table rlb_contact_form_7: Total rows added: 5 in 0.02 seconds
+59377.477 (1) Table rlb_contact_form_7: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_contact_form_7.table.gz)
+59377.512 (1) Table rlb_gmshc: Total expected rows (approximate): 14
+59377.517 (1) Table rlb_gmshc: Total rows added: 14 in 0.01 seconds
+59377.519 (1) Table rlb_gmshc: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_gmshc.table.gz)
+59377.548 (1) Table rlb_icl_cms_nav_cache: Total expected rows (approximate): 0
+59377.574 (1) Table rlb_icl_cms_nav_cache: Total rows added: 0 in 0.03 seconds
+59377.576 (1) Table rlb_icl_cms_nav_cache: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_cms_nav_cache.table.gz)
+59377.612 (1) Table rlb_icl_content_status: Total expected rows (approximate): 0
+59377.616 (1) Table rlb_icl_content_status: Total rows added: 0 in 0.01 seconds
+59377.618 (1) Table rlb_icl_content_status: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_content_status.table.gz)
+59377.687 (1) Table rlb_icl_core_status: Total expected rows (approximate): 0
+59377.692 (1) Table rlb_icl_core_status: Total rows added: 0 in 0.01 seconds
+59377.694 (1) Table rlb_icl_core_status: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_core_status.table.gz)
+59377.721 (1) Table rlb_icl_flags: Total expected rows (approximate): 63
+59377.744 (1) Table rlb_icl_flags: Total rows added: 63 in 0.03 seconds
+59377.749 (1) Table rlb_icl_flags: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_flags.table.gz)
+59377.787 (1) Table rlb_icl_languages: Total expected rows (approximate): 63
+59377.793 (1) Table rlb_icl_languages: Total rows added: 63 in 0.01 seconds
+59377.910 (1) Table rlb_icl_languages: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_languages.table.gz)
+59377.979 (1) Table rlb_icl_languages_translations: Total expected rows (approximate): 3969
+59378.200 (1) Table rlb_icl_languages_translations: Total rows added: 3969 in 0.23 seconds
+59378.203 (1) Table rlb_icl_languages_translations: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_languages_translations.table.gz)
+59378.237 (1) Table rlb_icl_locale_map: Total expected rows (approximate): 2
+59378.240 (1) Table rlb_icl_locale_map: Total rows added: 2 in 0.01 seconds
+59378.241 (1) Table rlb_icl_locale_map: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_locale_map.table.gz)
+59378.282 (1) Table rlb_icl_message_status: Total expected rows (approximate): 0
+59378.300 (1) Table rlb_icl_message_status: Total rows added: 0 in 0.02 seconds
+59378.302 (1) Table rlb_icl_message_status: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_message_status.table.gz)
+59378.346 (1) Table rlb_icl_node: Total expected rows (approximate): 0
+59378.351 (1) Table rlb_icl_node: Total rows added: 0 in 0.01 seconds
+59378.383 (1) Table rlb_icl_node: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_node.table.gz)
+59378.421 (1) Table rlb_icl_reminders: Total expected rows (approximate): 0
+59378.427 (1) Table rlb_icl_reminders: Total rows added: 0 in 0.01 seconds
+59378.428 (1) Table rlb_icl_reminders: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_reminders.table.gz)
+59378.472 (1) Table rlb_icl_string_positions: Total expected rows (approximate): 2445
+59378.591 (1) Table rlb_icl_string_positions: Total rows added: 2445 in 0.14 seconds
+59378.593 (1) Table rlb_icl_string_positions: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_string_positions.table.gz)
+59378.647 (1) Table rlb_icl_string_status: Total expected rows (approximate): 0
+59378.650 (1) Table rlb_icl_string_status: Total rows added: 0 in 0.01 seconds
+59378.651 (1) Table rlb_icl_string_status: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_string_status.table.gz)
+59378.730 (1) Table rlb_icl_string_translations: Total expected rows (approximate): 1010
+59378.814 (1) Table rlb_icl_string_translations: Total rows added: 1010 in 0.09 seconds
+59378.818 (1) Table rlb_icl_string_translations: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_string_translations.table.gz)
+59378.850 (1) Table rlb_icl_strings: Total expected rows (approximate): 2471
+59379.101 (1) Table rlb_icl_strings: Total rows added: 2471 in 0.26 seconds
+59379.223 (1) Table rlb_icl_strings: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_strings.table.gz)
+59379.514 (1) Table rlb_icl_translate: Total expected rows (approximate): 395
+59379.593 (1) Table rlb_icl_translate: Total rows added: 395 in 0.08 seconds
+59379.626 (1) Table rlb_icl_translate: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_translate.table.gz)
+59379.664 (1) Table rlb_icl_translate_job: Total expected rows (approximate): 92
+59379.673 (1) Table rlb_icl_translate_job: Total rows added: 92 in 0.01 seconds
+59379.692 (1) Table rlb_icl_translate_job: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_translate_job.table.gz)
+59379.747 (1) Table rlb_icl_translation_status: Total expected rows (approximate): 92
+59379.784 (1) Table rlb_icl_translation_status: Total rows added: 92 in 0.04 seconds
+59379.787 (1) Table rlb_icl_translation_status: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_translation_status.table.gz)
+59379.815 (1) Table rlb_icl_translations: Total expected rows (approximate): 367
+59379.845 (1) Table rlb_icl_translations: Total rows added: 367 in 0.04 seconds
+59379.847 (1) Table rlb_icl_translations: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_translations.table.gz)
+59379.931 (1) Table rlb_pollsa: Total expected rows (approximate): 5
+59379.937 (1) Table rlb_pollsa: Total rows added: 5 in 0.01 seconds
+59379.940 (1) Table rlb_pollsa: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_pollsa.table.gz)
+59379.999 (1) Table rlb_pollsip: Total expected rows (approximate): 0
+59380.001 (1) Table rlb_pollsip: Total rows added: 0 in 0.01 seconds
+59380.004 (1) Table rlb_pollsip: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_pollsip.table.gz)
+59380.034 (1) Table rlb_pollsq: Total expected rows (approximate): 1
+59380.052 (1) Table rlb_pollsq: Total rows added: 1 in 0.02 seconds
+59380.054 (1) Table rlb_pollsq: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_pollsq.table.gz)
+59380.106 (1) Table rlb_wpfb_cats: Total expected rows (approximate): 22
+59380.112 (1) Table rlb_wpfb_cats: Total rows added: 22 in 0.03 seconds
+59380.115 (1) Table rlb_wpfb_cats: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_wpfb_cats.table.gz)
+59380.157 (1) Table rlb_wpfb_files: Total expected rows (approximate): 154
+59380.218 (1) Table rlb_wpfb_files: Total rows added: 154 in 0.07 seconds
+59380.221 (1) Table rlb_wpfb_files: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_wpfb_files.table.gz)
+59380.264 (1) Table rlb_wpfb_files_id3: Total expected rows (approximate): 154
+59380.280 (1) Table rlb_wpfb_files_id3: Total rows added: 154 in 0.02 seconds
+59380.293 (1) Table rlb_wpfb_files_id3: finishing file (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_wpfb_files_id3.table.gz)
+59380.353 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_options.table.gz: adding to final database dump
+59380.402 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_users.table.gz: adding to final database dump
+59380.407 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_usermeta.table.gz: adding to final database dump
+59380.411 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_commentmeta.table.gz: adding to final database dump
+59380.428 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_comments.table.gz: adding to final database dump
+59380.432 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_links.table.gz: adding to final database dump
+59380.435 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_postmeta.table.gz: adding to final database dump
+59380.488 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_posts.table.gz: adding to final database dump
+59380.826 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_term_relationships.table.gz: adding to final database dump
+59380.840 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_term_taxonomy.table.gz: adding to final database dump
+59380.895 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_terms.table.gz: adding to final database dump
+59380.899 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_cf7dbplugin_submits.table.gz: adding to final database dump
+59380.909 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_contact_form_7.table.gz: adding to final database dump
+59380.913 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_gmshc.table.gz: adding to final database dump
+59380.916 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_cms_nav_cache.table.gz: adding to final database dump
+59380.919 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_content_status.table.gz: adding to final database dump
+59380.952 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_core_status.table.gz: adding to final database dump
+59380.956 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_flags.table.gz: adding to final database dump
+59380.959 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_languages.table.gz: adding to final database dump
+59380.963 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_languages_translations.table.gz: adding to final database dump
+59380.999 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_locale_map.table.gz: adding to final database dump
+59381.003 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_message_status.table.gz: adding to final database dump
+59381.006 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_node.table.gz: adding to final database dump
+59381.036 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_reminders.table.gz: adding to final database dump
+59381.039 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_string_positions.table.gz: adding to final database dump
+59381.065 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_string_status.table.gz: adding to final database dump
+59381.068 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_string_translations.table.gz: adding to final database dump
+59381.082 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_strings.table.gz: adding to final database dump
+59381.117 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_translate.table.gz: adding to final database dump
+59381.189 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_translate_job.table.gz: adding to final database dump
+59381.194 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_translation_status.table.gz: adding to final database dump
+59381.219 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_icl_translations.table.gz: adding to final database dump
+59381.226 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_pollsa.table.gz: adding to final database dump
+59381.229 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_pollsip.table.gz: adding to final database dump
+59381.232 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_pollsq.table.gz: adding to final database dump
+59381.236 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_wpfb_cats.table.gz: adding to final database dump
+59381.270 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_wpfb_files.table.gz: adding to final database dump
+59381.277 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db-table-rlb_wpfb_files_id3.table.gz: adding to final database dump
+59381.283 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db.gz: finished writing out complete database file (936 Kb)
+59381.327 (1) Total database tables backed up: 38
+59381.331 (1) Saving backup history
+59381.395 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-plugins.zip: plugins: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Users/mainuser/Dropbox/Sites/RenaissanceLacBrome/htdocs/wp-content/updraft/backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-plugins.zip)
+59381.412 (1) Recording as successfully uploaded: backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-plugins.zip (80bec70faf172e103a3cfdabe2c94f2a)
+59381.429 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-themes.zip: themes: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Users/mainuser/Dropbox/Sites/RenaissanceLacBrome/htdocs/wp-content/updraft/backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-themes.zip)
+59381.478 (1) Recording as successfully uploaded: backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-themes.zip (a4c6c2a6e740ac6b44529351eae46346)
+59381.503 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-uploads.zip: uploads: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Users/mainuser/Dropbox/Sites/RenaissanceLacBrome/htdocs/wp-content/updraft/backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-uploads.zip)
+59381.528 (1) Recording as successfully uploaded: backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-uploads.zip (ccd894cca83c2d44eed5f85c5dd5fc26)
+59381.553 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-wpcore.zip: wpcore: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Users/mainuser/Dropbox/Sites/RenaissanceLacBrome/htdocs/wp-content/updraft/backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-wpcore.zip)
+59381.578 (1) Recording as successfully uploaded: backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-wpcore.zip (73cf137a971f77202d5e5f01bfd15c6d)
+59381.603 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-others.zip: others: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Users/mainuser/Dropbox/Sites/RenaissanceLacBrome/htdocs/wp-content/updraft/backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-others.zip)
+59381.628 (1) Recording as successfully uploaded: backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-others.zip (d0a862e8d94318b7ee8cc8fd4630c44b)
+59381.654 (1) backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db.gz: db: This file has not yet been successfully uploaded: will queue
+59381.656 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+59381.720 (1) Cloud backup selection: dropbox
+59381.724 (1) Beginning dispatch of backup to remote (dropbox)
+59381.728 (1) Dropbox: begin cloud upload
+59381.738 (1) Dropbox: access gained
+59382.368 (1) Dropbox quota usage: normal=18708.2 Mb, shared=6276 Mb, total=114176 Mb, available=89191.8 Mb
+59382.401 (1) Dropbox: Attempt to upload: backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db.gz to: renaissance/backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db.gz
+59384.154 (1) Dropbox chunked upload: 53.3 % uploaded (XYTZ3I9omOuNanquvW-DTA, 524288)
+59385.563 (1) Dropbox chunked upload: 100 % uploaded (XYTZ3I9omOuNanquvW-DTA, 983518)
+59386.871 (1) Recording as successfully uploaded: backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db.gz (b4cf8529c444393e8e61470b74aed34b)
+59386.890 (1) Deleting local file: backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db.gz
+59386.905 (1) Dropbox: File upload success (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db.gz): 960 Kb in 4s (213 Kb/s)
+59386.921 (1) Retain: beginning examination of existing backup sets
+59386.923 (1) Retain files: user setting: number to retain = 2
+59386.938 (1) Retain db: user setting: number to retain = 4
+59386.940 (1) Number of backup sets in history: 5
+59386.942 (1) Examining backup set with datestamp: 1381436754
+59386.944 (1) 1381436754: this set includes a database (backup_2013-10-10-1625_Renaissance_lac_Brome_d327f45fd5fc-db.gz); db count is now 1
+59386.945 (1) 1381436754: this set includes files; fileset count is now 1
+59386.947 (1) 1381436754: this backup set remains non-empty; will retain in history
+59386.948 (1) Examining backup set with datestamp: 1381435714
+59386.949 (1) 1381435714: this set includes a database (backup_2013-10-10-1608_Renaissance_lac_Brome_cc243b11628c-db.gz); db count is now 2
+59386.951 (1) 1381435714: this set includes files; fileset count is now 2
+59386.971 (1) 1381435714: this backup set remains non-empty; will retain in history
+59386.973 (1) Examining backup set with datestamp: 1381434631
+59386.975 (1) 1381434631: this set includes a database (backup_2013-10-10-1550_Renaissance_lac_Brome_4c6f25f46b1b-db.gz); db count is now 3
+59386.978 (1) 1381434631: this set includes files; fileset count is now 3
+59386.979 (1) 1381434631: over retain limit (2); will delete this file set
+59386.980 (1) Delete file: backup_2013-10-10-1550_Renaissance_lac_Brome_4c6f25f46b1b-plugins.zip, service=dropbox
+59386.983 (1) Dropbox: request deletion: renaissance/backup_2013-10-10-1550_Renaissance_lac_Brome_4c6f25f46b1b-plugins.zip
+59387.518 (1) Dropbox error: Path '/renaissance/backup_2013-10-10-1550_renaissance_lac_brome_4c6f25f46b1b-plugins.zip' not found (line: 145, file: /Users/mainuser/Dropbox/Sites/RenaissanceLacBrome/htdocs/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+59388.047 (1) 1381434631: this backup set remains non-empty; will retain in history
+59388.063 (1) Examining backup set with datestamp: 1381433981
+59388.065 (1) 1381433981: this set includes a database (backup_2013-10-10-1539_Renaissance_lac_Brome_c51e42682bcb-db.gz); db count is now 4
+59388.066 (1) 1381433981: this backup set remains non-empty; will retain in history
+59388.067 (1) Examining backup set with datestamp: 1381432219
+59388.070 (1) 1381432219: this set includes a database (backup_2013-10-10-1510_Renaissance_lac_Brome_4345c83128f5-db.gz); db count is now 5
+59388.072 (1) 1381432219: over retain limit (4); will delete this database
+59388.073 (1) Delete file: backup_2013-10-10-1510_Renaissance_lac_Brome_4345c83128f5-db.gz, service=dropbox
+59388.075 (1) Dropbox: request deletion: renaissance/backup_2013-10-10-1510_Renaissance_lac_Brome_4345c83128f5-db.gz
+59388.579 (1) Dropbox error: Path '/renaissance/backup_2013-10-10-1510_renaissance_lac_brome_4345c83128f5-db.gz' not found (line: 145, file: /Users/mainuser/Dropbox/Sites/RenaissanceLacBrome/htdocs/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+59388.591 (1) 1381432219: this backup set is now empty; will remove from history
+59388.605 (1) 1381432219: corresponding log file not found - must have already been deleted
+59388.607 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+59388.622 (1) Resume backup (d327f45fd5fc, 1): finish run
+59388.639 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+59388.672 (1) The backup apparently succeeded (with warnings) and is now complete
+59388.674 (1) No email will/can be sent - the user has not configured an email address.
+59388.676 (1) La sauvegarde a apparemment réussi (avec des alertes) et est à présent terminée

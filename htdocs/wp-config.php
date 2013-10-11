@@ -19,13 +19,13 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('DB_NAME', 'renaissa_ncelb01');
+define('DB_NAME', 'renaissance');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'renaissa_labrome');
+define('DB_USER', 'root');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'S.2dO!X8{7JL');
+define('DB_PASSWORD', 'root');
 
 /** Adresse de l'hébergement MySQL. */
 define('DB_HOST', 'localhost');
@@ -69,8 +69,6 @@ define('NONCE_SALT',       ':fcoGDdH)dNo!h,lj[<qV!_D9.@j :`R0wUx0x(,xs1^`:y#|=aw
  */
 $table_prefix  = 'rlb_';
 
-define('WP_SITEURL', 'http://renaissancelbl.com');
-define('WP_HOME', 'http://renaissancelbl.com');
 
 /**
  * Langue de localisation de WordPress, par défaut en Anglais.
@@ -80,7 +78,7 @@ define('WP_HOME', 'http://renaissancelbl.com');
  * Par exemple, pour mettre en place une traduction française, mettez le fichier
  * fr_FR.mo dans wp-content/languages, et réglez l'option ci-dessous à "fr_FR".
  */
-define('WPLANG', 'fr_FR');
+define('WPLANG', '');
 
 /** 
  * Pour les développeurs : le mode deboguage de WordPress.
